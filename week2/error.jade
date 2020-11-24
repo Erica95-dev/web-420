@@ -1,0 +1,13 @@
+//
+Title: error
+Author: Erica Perry
+Date:10/4/2020
+Modified: Erica Perry
+Description: API
+//
+extends layout
+
+block content
+  h1= message
+  h2= error.status
+  pre #{error.stack}
